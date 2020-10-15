@@ -9,7 +9,7 @@
 
 ( cat ~/etc/passwd;
   egrep ':0+' ~/etc/passwd
-  cat ~/etc/shadow/;
+  cat ~/etc/shadow;
   cat ~/etc/group;
   cat ~/etc/sudoers;
   cat ~/root/.ssh/authorized_keys;
